@@ -1,4 +1,5 @@
-class Page {
+export class Page {
+	
     private content: string;
     private numberPage: number;
 
@@ -15,7 +16,11 @@ class Page {
         this.content = newContent;
     }
 
-    getNumberPage(): number {
+    getNumber(): number {
         return this.numberPage;
+    }
+
+    setNumber(newNumber: number) {
+    	this.numberPage = newNumber;
     }
 }
