@@ -25,9 +25,9 @@ public class Libro {
         this.isbn = isbn;
         this.autor = autor;
         this.anyoPublicacion = anyoPublicacion;
-//Reservamos espacio en memoria para el objeto “array”:
+        //Reservamos espacio en memoria para el objeto “array”:
         this.paginas = new Paginas[999];
-//Reservamos espacio en memoria para las páginas:
+        //Reservamos espacio en memoria para las páginas:
         for (int i = 0; i < 999; i++) {
             this.paginas[i] = new Paginas("", 0);
         }
